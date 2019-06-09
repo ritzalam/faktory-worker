@@ -1,0 +1,19 @@
+hash: 979f8bd902752346d2cd3da4117f7075349b865fa9b5aec159ce9ac81823f2a7
+updated: 2019-06-07T18:56:05.28390755-07:00
+imports:
+- name: github.com/contribsys/faktory
+  version: a9102f2aed8eabef7fc897bb896ed2dadd41f380
+  subpackages:
+  - client
+- name: github.com/contribsys/faktory_worker_go
+  version: 86cdd9bae9d427d2c771e4ce107dc56267da0f31
+- name: github.com/go-redis/redis
+  version: 75795aa4236dc7341eefac3bbe945e68c99ef9df
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+  - internal/util
+testImports: []

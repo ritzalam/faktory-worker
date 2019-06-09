@@ -1,0 +1,5 @@
+package: faktory
+import:
+- package: github.com/contribsys/faktory_worker_go
+- package: github.com/go-redis/redis
+  version: ^6.15.3
